@@ -3,12 +3,6 @@ from abc import ABC
 from sys import exit
 
 
-# class LoadAndSave(ABC):
-#     pass
-
-
-# class CartJson(LoadAndSave):
-#     pass
 
 
 class Cart():
@@ -130,7 +124,7 @@ cart1.ask_if_cart()
 while True:
 
     command = input(
-        "Please select one option:   Show - Add - Delete - Clear - Save - Chekout - Quit  ")
+        "Please select one option:   Show - Add - Delete - Clear - Save - Checkout - Quit  ")
 
     if command.lower() == "save":
         cart1.save()
