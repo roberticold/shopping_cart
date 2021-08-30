@@ -32,7 +32,7 @@ class Cart():
             if len(self.products) == 0:
                 print("Sorry, you have no cart in our registers")
                 self.products == {}
-        if have_cart.lower() == "y":
+        if have_cart.lower() == "n":
             self.products == {}
 
     def save(self):
@@ -130,8 +130,7 @@ while True:
         cart1.save()
         if 1:
             break
-        if 2:
-            continue
+        
     if command.lower() == "quit":
         # clear_output()
         cart1.show()
